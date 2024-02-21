@@ -1,0 +1,32 @@
+for mandatory part:
+
+i must be able to open file
+check the four argc pass and see if two are cmd 
+
+
+ ## we just need one envp variable and once we get it then we append the cmd1 and cmd 2 to 
+    for my int main (to check for cmd and file)
+     check number of argc == 5
+     check for my envp till the end and then search for PATH (since that's where all the values are located)
+    every PATH is sepearted by : so i need to split and then append the / to make it a dir 
+    append the argv to the end of each splitted path and the use ACCESS to check if any file of such exit before 
+    but since the subject gave us a fmt to input we can just check the cmd1 and cmd2 to see if they can be ACCESS
+    
+# Now i would need to check if the Accessible file are executed or not Executable 
+    If not excutable , close and free memory but if executable then we move lol !!!
+    hurray we got out cmd 1 and cmd 2 so the rest of the file is argv . 
+# now lead read our file1 and and figure how to output our file2
+    to read and open the txt and then dup;
+# use the gnl function and pass the file 
+    # now i wanna pass a file.txt with gnl after 
+    # huirray i can read with my gnl, pass to pipe and then print 
+# NOW i want to join my program and execute it
+    first i need to create an execute function, and 
+    then clean up function 
+# OPENing  files
+    aim: to open files with modes
+    the modes determine if we opening the file 
+    argc[1] would include syntax of opening only
+    argv[4] would include writing, creating if not existing and truncating if it exist
+# doesn't work bc i am only working on cmd1 
+    so fix this by using a variable  i and pass the required variable 
